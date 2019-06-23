@@ -1,0 +1,51 @@
+ html{
+  font-size: 62.5%;
+}
+.menu {
+	width: 94.0rem;
+ 	margin: 0 auto;
+ 	padding: 1rem 2rem;
+}
+nav ul {
+  padding: 0;
+  margin: 0;       
+}
+
+
+.mainMenu li {
+    width: 254px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    margin-right: 20px;
+    padding: 0 10px;
+    list-style: none;
+    color: #af0061;
+    border: 1px solid #e5e5e5;
+}
+.fa-caret-right {
+	font-size: 1.6rem;
+	padding: 1rem;
+}
+.subMenu li {
+  display:none;
+}
+.mainMenu li:hover .subMenu li{
+  display: block;
+  text-align: center;
+  width: 230px;
+  line-height: 35px;
+  padding:0;
+}
+.link  {
+  color:#8d1f5b;
+  font-size: 1.6rem;
+  text-decoration:none;
+  color: #af0061;
+
+}
+.link:hover{
+  color:#8d1f5b;
+  text-decoration: none;
+ 
+}

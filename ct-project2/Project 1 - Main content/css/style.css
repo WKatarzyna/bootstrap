@@ -1,0 +1,118 @@
+/*Main content*/
+
+html {
+    font-size: 62.5%; 
+}
+
+
+.boxes{
+    position: relative;
+    width: 94rem;    
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 0;    
+    
+ 
+}
+
+.boxes--holder {
+    width: 100%;    
+    margin: 0;
+    padding: 0;
+    display: table;
+    clear: both;
+    list-style-type: none;
+}
+
+.boxes--holder [class^="box-"] {
+    margin-bottom: 2.2rem;
+    backface-visibility: hidden;
+    transition: .5s; 
+}
+
+.image {
+    width: 22.9rem;
+    height: 22.1rem;
+}
+.box-left {    
+    float: left;    
+    height: 22.1rem;  
+  
+
+}
+
+.box-right{ 
+    height: 22.1rem;     
+    float: right;    
+
+
+}
+
+.box-left:hover,
+.box-right:hover{
+    transform: scaleY(1.1);
+    transition: .5s;
+    background-color: rgba(205, 92, 92, 0.527);
+    box-shadow: 0px 0px 2.5rem grey;  
+   
+}
+
+.image-box {    
+  
+    width: 22.9rem;
+    height: 22.1rem;    
+    margin: 0;
+    padding: 0;  
+    float: left;        
+}
+
+.text-box {
+    width: 23rem;
+    height: 22.1rem;
+    border: 1px solid #e5e5e5;    
+    box-sizing: border-box;
+    padding: 1rem 1.5rem;
+    float: left;    
+    transition: .5s;
+}
+
+#line {
+    
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0px;
+   
+}
+.text-box--title  {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #af0061;    
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+   letter-spacing: 0px;
+   font-weight: 100;
+}
+
+.text-box--content {
+    font-size: 1.4rem;
+    color: black;
+}
+
+#breadcrumbs, .link {
+    font-size: 1.3rem;    
+    margin: 3rem 0;
+    color: #af0061;
+    text-decoration: none;  
+}
+
+.link2 {
+    font-size: 1.4rem;    
+    margin: 3rem 0;
+    color: #af0061;
+    text-decoration: none;  
+}
+
+.link::after {
+    content:"/";
+  } 
+        

@@ -1,0 +1,46 @@
+ html{
+  font-size: 62.5%;
+}
+
+.mainContainer {
+  margin: 0 auto;
+  height: 10.4rem;
+  width: 94.0rem;
+  border-bottom: .1rem solid #e5e5e5;
+  clear:both;
+  display:table;
+
+}
+.search {
+  float: left;
+  border: 1px solid grey;
+  margin-top: 2rem;
+  margin-left: 17.0rem;
+  font-size: 1.6rem;
+  }
+
+.logo {
+  width: 50%;
+  float: left;
+  margin-top: .9rem;
+  }
+  
+  
+.icon {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color:#8d1f5b;
+  font-weight: 900;
+  min-width: 5rem;
+  text-align: center;
+  border:none;
+  background-color: transparent;
+}
+  
+.input-field {
+  width: 21.2rem;
+  height: 4.2rem;
+  border: none;
+  padding:1rem;
+}
+
